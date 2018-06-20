@@ -1,6 +1,26 @@
-# vue-purejs-donut
+# vuejs-donut-simple
 
 > Simple donut chart
+
+![alt text](https://github.com/al3xa96/vuejs-donut-simple/blob/master/src/assets/donut.png)
+##Required Properties
+````
+    percentage: {
+      type: Number,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    stroke: {
+      type: Number,
+      required: true
+    }
+````
+* Percentage: displayed value on chart
+* Description: variable's name
+* stroke: Chart width
 
 ## Build Setup
 
